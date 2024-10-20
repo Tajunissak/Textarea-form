@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real_Time Character counter</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cointainer">
+        <h2 >Message Box or Magic Box</h2>
+        <p>You can type what u want but it should contain only 200 words</p>
+        <textarea name="" id="convo" placeholder="start typing u r seceret msg lets have a sweet conversation"></textarea>
+        <div class="progress-bar">
+            <div id="progress" class="progress" style="width: 0%;"></div>
+        </div>
+        <div class="counter-bar">
+            <div id="counter" class="counter">
+               0/200
+            </div>
+        </div>
+        <div class="character-count">
+            <h3>
+                character details
+            </h3>
+            <ul id="character-letters"></ul>
+        </div>
+        <div class="warnings-show">
+            <div class="warning" id="warning"></div>
+        </div>
+    </div>
+    <script src="sript.js"></script>
+</body>
+</html>

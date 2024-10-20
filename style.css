@@ -1,0 +1,61 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+}
+.cointainer{
+    margin-top: 5%;
+    justify-content: center;
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+    border-radius: 30px;
+    border: none;
+}
+h2{
+    background-color: darkolivegreen;
+    padding: 10px;
+    border-radius: 30px; 
+}
+textarea{
+    height: 200px;
+    width: 100%;
+}
+.progress-bar {
+    width: 100%;
+    background-color: #d5dbdb;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 12px;
+    overflow: hidden;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.progress{
+    height: 100%;
+    background: linear-gradient(90deg, #00531c, #0b4400);
+    width: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+@media screen and (max-width:400px) {
+    .container {
+        padding: 30px;
+        max-width: 90%; 
+    }
+    textarea {
+        height: 120px; 
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .character-count{
+        font-size: 13px;
+    }
+    .counter{
+        font-size: 13px;
+    }
+}
